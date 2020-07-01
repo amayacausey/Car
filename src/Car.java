@@ -49,19 +49,25 @@ public class Car extends Vehicle {
     }
     public String toString3(){
         String msg3=super.toString();
-        return msg3=msg3+" "+ make+" is going " +mph+ " mph";
+        return msg3="The " +msg3+" "+ make+" is going " +mph+ " mph";
     }
     public String toString4(){
         String msg4=super.toString();
-        return msg4=msg4+" "+make+" is stopped";
+        return msg4="The " +msg4+" "+make+" is stopped";
     }
     public String toString5(){
         String msg5=super.toString();
-        return msg5=msg5+" "+make+" has stopped to have its emissions checked";
+        return msg5="The " +msg5+" "+make+" has stopped to have its emissions checked";
     }
     public String toString6(){
         String msg6=super.toString();
-        return msg6=msg6+" "+make+" has just passed the ";
+        return msg6="The " +msg6+" "+make+" has just passed the ";
+    }
+    public String description () {
+        String des=super.toString();
+        return "Color:              " +des+ "\n" +
+                "Make:               " + make + "\n" +
+                "Model:              " + model+ "\n" ;
     }
 }
 

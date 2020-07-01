@@ -12,7 +12,7 @@ public class Vehicle {
         return this.color;
     }
     public String toString() {
-        return "The " +color;
+        return color;
     }
     public boolean equals(String color){
        // if (this.color.equalsIgnoreCase(color))
